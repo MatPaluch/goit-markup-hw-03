@@ -217,7 +217,7 @@ body {
 
 .section-fourth {
   background-color: var(--CLOUD);
-  padding: 120px;
+  padding: 120px 0;
 }
 .our-team {
   margin-bottom: 72px;
