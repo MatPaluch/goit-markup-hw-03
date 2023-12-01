@@ -1,0 +1,166 @@
+:root {
+  --IRIS: #4d5ae5;
+  --OCEAN: #404bbf;
+  --NAVY-BLUE: #2e2f42;
+  --GREEN: #31d0aa;
+  --SLATE: #434455;
+  --LIGHT-SLATE: #8e8f99;
+  --CORNFLOWER: #e7e9fc;
+  --CLOUD: #f4f4fd;
+  --NAVY-BLUE-MODAL: #2e2f4266;
+  --GREY: #2e2f42b2;
+  --WHITE: #fff;
+  --DAIRY: #fcfcfc;
+}
+body {
+  margin: 0;
+  color: var(--SLATE);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  background-color: var(--WHITE);
+}
+
+header {
+  background-color: var(--WHITE);
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--IRIS);
+}
+.logo-studio {
+  color: var(--NAVY-BLUE);
+}
+
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+
+.list-link {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--NAVY-BLUE);
+}
+.list-link:hover,
+.list-link:focus {
+  color: var(--OCEAN);
+}
+
+.address {
+  font-style: normal;
+}
+.contact {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--SLATE);
+}
+.contact:hover,
+.contact:focus {
+  color: var(--OCEAN);
+}
+
+.hero-image {
+  background-color: var(--NAVY-BLUE);
+}
+.title-header {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--WHITE);
+}
+.button-service {
+  background-color: var(--IRIS);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--WHITE);
+  cursor: pointer;
+}
+.button-service:hover,
+.button-service:focus {
+  background-color: var(--OCEAN);
+}
+
+.header-third {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--NAVY-BLUE);
+}
+.descrip {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--SLATE);
+}
+
+.header-second {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--NAVY-BLUE);
+}
+
+.section-fourth {
+  background-color: var(--CLOUD);
+}
+.team {
+  background-color: var(--WHITE);
+}
+
+.footer-section {
+  background-color: var(--NAVY-BLUE);
+}
+.logo-studio-footer {
+  color: var(--CLOUD);
+}
+.footer-descrip {
+  color: var(--CLOUD);
+}
+
+/*------------ Portfolio ------------*/
+
+.filter-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--IRIS);
+  background-color: var(--CLOUD);
+  cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--WHITE);
+  background-color: var(--OCEAN);
+}
+
+.header-second-portfolio {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--NAVY-BLUE);
+}
