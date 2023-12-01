@@ -86,9 +86,6 @@ body {
   display: flex;
   gap: 40px;
 }
-.header-links {
-  padding: 24px 0;
-}
 .list-link {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
@@ -96,6 +93,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--NAVY-BLUE);
+  padding: 24px 0;
 }
 .list-link:hover,
 .list-link:focus {
@@ -128,12 +126,20 @@ body {
 .hero-image {
   background-color: var(--NAVY-BLUE);
 }
+.hero-image-container {
+  padding: 188px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .title-header {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--WHITE);
+  max-width: 496px;
 }
 .button-service {
   background-color: var(--IRIS);
@@ -143,7 +149,13 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--WHITE);
+  border-radius: 4px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
   cursor: pointer;
+  padding: 16px 32px;
+  margin-top: 48px;
 }
 .button-service:hover,
 .button-service:focus {
