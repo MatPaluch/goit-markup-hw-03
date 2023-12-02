@@ -284,7 +284,16 @@ body {
 }
 
 /*------------ Portfolio ------------*/
-
+.section-container {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+.filter-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
 .filter-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -294,17 +303,39 @@ body {
   color: var(--IRIS);
   background-color: var(--CLOUD);
   cursor: pointer;
+
+  padding: 12px 24px;
+
+  border-radius: 4px;
+  border: 1px solid var(--CORNFLOWER, #e7e9fc);
 }
 .filter-button:hover,
 .filter-button:focus {
   color: var(--WHITE);
   background-color: var(--OCEAN);
+  border: 1px solid transparent;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
-
+.image-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.image-position {
+  width: calc((100% - 48px) / 3);
+}
+.image-description {
+  padding: 32px 16px;
+  border: 1px solid var(--CORNFLOWER);
+  border-top: none;
+}
 .header-second-portfolio {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--NAVY-BLUE);
+  margin-bottom: 8px;
 }
